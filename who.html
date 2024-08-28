@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/image/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/icon/all.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/who.css" />
+    <title>من نحن</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="logo ms-5">
+          <img src="assets/image/logo.png" alt="logo" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#h"
+              >الرئيسية</a
+            >
+            <a class="nav-link" href="#a">الاخبار</a>
+            <a class="nav-link" href="#ser">خدماتنا</a>
+            <a class="nav-link" href="#sa">قطاعتنا</a>
+            <a class="nav-link" href="#ct">الندوات</a>
+            <a class="nav-link" href="#wh">من نحن</a>
+            <a class="nav-link" href="#ca">اتصل بنا</a>
+          </div>
+          <!-- ================================================================================================== -->
+          <div class="logIn">
+            <div
+              class="modal fade"
+              id="exampleModalToggle"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modalContent">
+                  <div class="modalHeader container">
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></i>
+                  </div>
+                  <div class="modalBody">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <div class="logInModal">
+                            <h3>تسجيل الدخول</h3>
+                            <p>
+                              من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال
+                              تسجيل الدخول ومعرفة الدرجات والتقديرات الخاصة بك
+                              في الجامعة
+                            </p>
+                            <input
+                              class="input"
+                              type="text"
+                              placeholder="الرقم القومي"
+                            />
+                            <input
+                              class="input"
+                              type="text"
+                              placeholder="الرقم الجامعي"
+                            />
+                            <button
+                              data-bs-target="#exampleModalToggle2"
+                              data-bs-toggle="modal"
+                            >
+                              تسجيل الآن
+                            </button>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <div class="image">
+                            <img
+                              src="assets/image/Group 11344.png"
+                              alt="جامعة الأزهر"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="exampleModalToggle2"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modalHeader container">
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></i>
+                  </div>
+
+                  <div class="modalBody">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <div class="logInModal">
+                            <h3>الكلية والتخصص</h3>
+                            <select
+                              class="form-select input"
+                              aria-label="Default select example"
+                            >
+                              <option class="me-4" selected>اختر الكلية</option>
+                              <option value="1">Computer Science</option>
+                              <option value="2">Engineering</option>
+                              <option value="3">AI</option>
+                            </select>
+                            <select
+                              class="form-select input"
+                              aria-label="Default select example"
+                            >
+                              <option selected>اختر القسم -التخصص</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <input
+                              class="input"
+                              type="text"
+                              placeholder="رقم الجلوس"
+                            />
+                            <a href="result.html"
+                              ><button
+                                data-bs-target="#exampleModalToggle2"
+                                data-bs-toggle="modal"
+                              >
+                                متابعة
+                              </button></a
+                            >
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <div class="image">
+                            <img
+                              src="assets/image/Group 11344.png"
+                              alt="جامعة الأزهر"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn btn-primary customizeBtn1"
+              data-bs-target="#exampleModalToggle"
+              data-bs-toggle="modal"
+            >
+              تسجيل الدخول
+            </button>
+            <button class="customizeBtn2">عضو جديد</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <div class="image">
+              <img src="assets/image/Group 11342.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6">
+            <div class="text">
+              <h1>Smart <span>Gate</span></h1>
+              <p>
+                الأفكار المبدعه والمبتكرة هي طريقنا لبناء علاقتنا مع العميل
+                كفريق عمل واحد بداية من العمل سوياً ثم التشغيل والإدارة نعمل معا
+                ننجح معا - وذلك عن طريق تقديم المنتجات والخدمات ذات الجوده
+                العالية في مجال تكنولوجيا المعلومات لتطوير البرامج والبنية
+                التحتية اللازمة من أجهزة وشبكات وبرمجيات لتطوير الأداء لدي
+                العملاء
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="goal">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="textGoal">
+              <div class="frist">
+                <img src="assets/image/Group 9139.svg" alt="" />
+                <h5>رؤية الشركة</h5>
+                <p>
+                  الأفكار المبدعه والمبتكرة هي طريقنا لبناء علاقتنا مع العميل
+                  كفريق عمل واحد بداية من العمل سوياً ثم التشغيل والإدارة نعمل
+                  معا ننجح معا - وذلك عن طريق تقديم المنتجات والخدمات ذات الجوده
+                  العالية في مجال تكنولوجيا المعلومات لتطوير البرامج والبنية
+                  التحتية اللازمة من أجهزة وشبكات وبرمجيات لتطوير الأداء لدي
+                  العملاء
+                </p>
+              </div>
+              <div class="second">
+                <img src="assets/image/Group 9138.svg" alt="" />
+                <h5>مهمة الشركة</h5>
+                <p>
+                  مهمتنا المشاركة مع عملائنا لنجعلهم أكثر تنافسية وكفاءه وأكثر
+                  فاعلية والمساهمه في استقرارهم بمواقعهم بالسوق والسعى للتقدم
+                  والنمو فى مجالات أعمالهم
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="imageGoal">
+              <img src="assets/image/Group 9143.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end goal -->
+    <!-- start team -->
+    <section class="teams">
+      <div class="headteam container">
+        <h3>فريقنا</h3>
+        <p>
+          نحن نهتم بالشباب اكثر ما نهتم بالخبرة لذلك فان فريقنا هو مجموعة من
+          الشباب المبدعين والطموحيين
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="allImage">
+              <div class="imageteams">
+                <div class="overlay"></div>
+                <img src="assets/image/pexels-olly-834863.jpg" alt="" />
+                <div class="icons">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+              <h5>مصطفي عبدالنعيم</h5>
+              <p>المدير العام</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="allImage">
+              <div class="imageteams">
+                <div class="overlay"></div>
+                <img src="assets/image/pexels-danxavier-1212984.jpg" alt="" />
+                <div class="icons">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+              <h5>محمود زكريا</h5>
+              <p>ابن الشركة</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="allImage">
+              <div class="imageteams">
+                <div class="overlay"></div>
+                <img src="assets/image/preson4 (2).jpg" alt="" />
+                <div class="icons">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+              <h5>سيلا مصطفي</h5>
+              <p>مسؤولة التسويق</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="allImage">
+              <div class="imageteams">
+                <div class="overlay"></div>
+                <img src="assets/image/person2.png" alt="" />
+                <div class="icons">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+              <h5>عبد الرحمن السيد</h5>
+              <p>المساعد التنفيذي</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end team -->
+    <!--========== Start Footer ==========-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 one">
+            <div class="logo">
+              <img src="assets/image/logo.png" alt="" />
+            </div>
+            <div class="location">
+              <i class="fa-solid fa-location-dot"></i
+              ><span> عقار رقم 9 شارع حسن افلاطون ارض الجولف – مدينة نصر</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 two">
+            <div class="links">
+              <p><a href="">الرئيسية</a></p>
+              <p><a href="">خدماتنا</a></p>
+              <p><a href="">قطاعتنا</a></p>
+              <p><a href="">الندوات</a></p>
+              <p><a href="">من نحن</a></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 three">
+            <div></div>
+            <div class="logo">
+              <p><a href="">تواصل معنا عبر</a></p>
+            </div>
+            <div class="data">
+              <h5 href=""><i class="fa-solid fa-mobile"></i> 01100665233</h5>
+              <h5 href=""><i class="fa-solid fa-phone"></i> 0224199056</h5>
+              <h5 href="">
+                <i class="fa-solid fa-envelope"></i> info@smart-gate.net
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 four">
+            <div class="logo">
+              <p><a href="">تابعنا عبر</a></p>
+            </div>
+            <div class="F-I-Y">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ff">
+        <img src="assets/image/pp1.png" alt="" />
+      </div>
+    </footer>
+    <!--========== End Footer ==========-->
+  </body>
+</html>

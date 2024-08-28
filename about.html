@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/image/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/icon/all.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <title>اخبارك</title>
+  </head>
+  <body>
+    <!--========== Start Header ==========-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="logo ms-5">
+          <img src="assets/image/logo.png" alt="logo" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#h"
+              >الرئيسية</a
+            >
+            <a class="nav-link" href="#a">الاخبار</a>
+            <a class="nav-link" href="#ser">خدماتنا</a>
+            <a class="nav-link" href="#sa">قطاعتنا</a>
+            <a class="nav-link" href="#ct">الندوات</a>
+            <a class="nav-link" href="#wh">من نحن</a>
+            <a class="nav-link" href="#ca">اتصل بنا</a>
+          </div>
+          <div class="logIn">
+            <div
+              class="modal fade"
+              id="exampleModalToggle"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modalContent">
+                  <div class="modalHeader container">
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></i>
+                  </div>
+                  <div class="modalBody">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <div class="logInModal">
+                            <h3>تسجيل الدخول</h3>
+                            <p>
+                              من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال
+                              تسجيل الدخول ومعرفة الدرجات والتقديرات الخاصة بك
+                              في الجامعة
+                            </p>
+                            <input
+                              class="input"
+                              type="text"
+                              placeholder="الرقم القومي"
+                            />
+                            <input
+                              class="input"
+                              type="text"
+                              placeholder="الرقم الجامعي"
+                            />
+                            <button
+                              data-bs-target="#exampleModalToggle2"
+                              data-bs-toggle="modal"
+                            >
+                              تسجيل الآن
+                            </button>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <div class="image">
+                            <img
+                              src="assets/image/Group 11344.png"
+                              alt="جامعة الأزهر"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="exampleModalToggle2"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modalHeader container">
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></i>
+                  </div>
+
+                  <div class="modalBody">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <div class="logInModal">
+                            <h3>الكلية والتخصص</h3>
+                            <select
+                              class="form-select input"
+                              aria-label="Default select example"
+                            >
+                              <option class="me-4" selected>اختر الكلية</option>
+                              <option value="1">Computer Science</option>
+                              <option value="2">Engineering</option>
+                              <option value="3">AI</option>
+                            </select>
+                            <select
+                              class="form-select input"
+                              aria-label="Default select example"
+                            >
+                              <option selected>اختر القسم -التخصص</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <input
+                              class="input"
+                              type="text"
+                              placeholder="رقم الجلوس"
+                            />
+                            <a href="result.html"
+                              ><button
+                                data-bs-target="#exampleModalToggle2"
+                                data-bs-toggle="modal"
+                              >
+                                متابعة
+                              </button></a
+                            >
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <div class="image">
+                            <img
+                              src="assets/image/Group 11344.png"
+                              alt="جامعة الأزهر"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn btn-primary customizeBtn1"
+              data-bs-target="#exampleModalToggle"
+              data-bs-toggle="modal"
+            >
+              تسجيل الدخول
+            </button>
+            <button class="customizeBtn2">عضو جديد</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--========== End Header ==========-->
+    <section class="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mb-5 col-md-8">
+            <div class="imageNews">
+              <img src="./assets/image/NoPath - Copy (57).png" alt="" />
+            </div>
+            <div class="card-body">
+              <div class="events">
+                <img src="assets/image/event_black_24dp.png" alt="event" />
+                <span>الأحد ، الموافق 29 / 01 / 2022</span>
+              </div>
+              <p class="card-text">
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن
+                استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو
+                (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي
+                وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج
+                عن النص، وإذا قمت بإدخال "Lorem Ipsum" في أي محرك بحث ستظهر
+                العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين
+                ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق
+                الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
+                العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما،
+                عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير
+                لائقة مخبأة في هذا النص. بينما تعمل جميع مولّدات نصوص لوريم
+                إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم
+                نفسه عدة مرات بما تتطلبه الحاجة
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h3 class="mb-4">اخبار اخري</h3>
+            <div class="all">
+              <div class="imageNews">
+                <img src="./assets/image/ppp1.png" alt="" />
+              </div>
+              <div class="card-body">
+                <div class="events">
+                  <img src="assets/image/event_black_24dp.png" alt="event" />
+                  <span>الأحد ، الموافق 29 / 01 / 2022</span>
+                </div>
+                <p class="cardtext">
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                  سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                  الفقرات في الصفحة التي يقرأها
+                </p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="imageNews">
+                <img src="./assets/image/ppp2.png" alt="" />
+              </div>
+              <div class="card-body">
+                <div class="events">
+                  <img src="assets/image/event_black_24dp.png" alt="event" />
+                  <span>الأحد ، الموافق 29 / 01 / 2022</span>
+                </div>
+                <p class="cardtext">
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                  سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                  الفقرات في الصفحة التي يقرأها
+                </p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="imageNews">
+                <img src="./assets/image/ppp3.png" alt="" />
+              </div>
+              <div class="card-body">
+                <div class="events">
+                  <img src="assets/image/event_black_24dp.png" alt="event" />
+                  <span>الأحد ، الموافق 29 / 01 / 2022</span>
+                </div>
+                <p class="cardtext">
+                  هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                  سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                  الفقرات في الصفحة التي يقرأها
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end news -->
+        <!--========== Start Footer ==========-->
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 one">
+                  <div class="logo">
+                    <img src="assets/image/logo.png" alt="" />
+                  </div>
+                  <div class="location">
+                    <i class="fa-solid fa-location-dot"></i><span> عقار رقم 9 شارع حسن
+                      افلاطون ارض الجولف – مدينة نصر</span> 
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6 two">
+                  <div class="links">
+                    <p><a href="">الرئيسية</a></p>
+                    <p><a href="">خدماتنا</a></p>
+                    <p><a href="">قطاعتنا</a></p>
+                    <p><a href="">الندوات</a></p>
+                    <p><a href="">من نحن</a></p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 three">
+                  <div></div>
+                  <div class="logo">
+                    <p><a href="">تواصل معنا عبر</a></p>
+                  </div>
+                  <div class="data">
+                    <h5 href=""><i class="fa-solid fa-mobile"></i> 01100665233</h5>
+                    <h5 href=""><i class="fa-solid fa-phone"></i> 0224199056</h5>
+                    <h5 href="">
+                      <i class="fa-solid fa-envelope"></i> info@smart-gate.net
+                    </h5>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 four">
+                  <div class="logo">
+                    <p><a href="">تابعنا عبر</a></p>
+                  </div>
+                  <div class="F-I-Y">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ff">
+              <img src="assets/image/pp1.png" alt="">
+            </div>
+          </footer>
+          <!--========== End Footer ==========-->
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.news .imageNews img{
+    width: 90%;
+}
+.news .card-body {
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+.news .card-body .events{
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.395);
+}
+.news .card-body .events img{
+    width: 20px;
+}
+.news .card-body p{
+    color: #101010;
+    line-height: 1.7;
+}
+.card-body .cardtext{
+    margin-bottom: 10px;
+}
+@media (max-width: 527px) {
+    .card-text {
+     overflow: scroll; 
+     height: 180px;
+    }
+  }
